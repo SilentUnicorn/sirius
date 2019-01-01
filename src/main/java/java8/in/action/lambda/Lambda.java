@@ -1,6 +1,4 @@
-package lambda;
-
-import java.util.function.Consumer;
+package java8.in.action.lambda;
 
 /**
  * @author zhangjingsi

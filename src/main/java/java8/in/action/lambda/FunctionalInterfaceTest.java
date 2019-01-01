@@ -1,4 +1,4 @@
-package lambda;
+package java8.in.action.lambda;
 
 import java.util.Stack;
 
