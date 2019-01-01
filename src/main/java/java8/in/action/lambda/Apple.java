@@ -1,5 +1,4 @@
-package lambda;
-
+package java8.in.action.lambda;
 /**
  * @author zhangjingsi
  * @date 2018/3/6下午7:59

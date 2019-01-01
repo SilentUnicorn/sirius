@@ -11,7 +11,7 @@ import java.util.List;
  * @date 2018/4/23下午5:43
  * -XX:MetaspaceSize=8m -XX:MaxMetaspaceSize=8m
  */
-public class JvaMethodAreaOom {
+public class JavaMethodAreaOom {
     public static void main(String[] args) {
         URL url;
         List<ClassLoader> classLoaderList = new ArrayList<>();
@@ -23,7 +23,7 @@ public class JvaMethodAreaOom {
                 count++;
                 ClassLoader loader = new URLClassLoader(urls);
                 classLoaderList.add(loader);
-                loader.loadClass("jvm.JvaMethodAreaOom");
+                loader.loadClass("jvm.JavaMethodAreaOom");
             }
         } catch (Exception e) {
             System.out.println("count:"+count);
