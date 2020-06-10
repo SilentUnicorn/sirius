@@ -2,7 +2,6 @@ package arithmetic;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Stack;
 
 class Solution {
     public static List<String> generateParenthesis(int n) {

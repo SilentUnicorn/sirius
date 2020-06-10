@@ -139,5 +139,6 @@
     <orderEntry type="library" name="Maven: org.apache.shardingsphere:sharding-transaction-core:4.0.0-RC1" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.7.25" level="project" />
+    <orderEntry type="library" name="Maven: org.openjdk.jol:jol-core:0.10" level="project" />
   </component>
 </module>

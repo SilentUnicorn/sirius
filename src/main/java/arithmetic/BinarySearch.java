@@ -2,7 +2,7 @@ package arithmetic;
 
 public class BinarySearch {
     public static void main(String[] args) {
-        int[] arr = {1 ,2 ,3 ,4 ,5 ,6};
+        int[] arr = {1 ,2 ,3 ,3,3,3,4,4,4 ,5 ,6};
         int target = 3;
         if (arr.length <=0 || target < arr[0] || target > arr[arr.length-1]){
             return;
@@ -35,8 +35,8 @@ public class BinarySearch {
         int left = 0;
         int right = arr.length-1;
         //right
-        while(left < right - 1){
-            int mid = (left + right)/2;
+        while(left < right){
+            int mid = (left + right)/2 + 1;
             if (arr[mid] <= target){
                 left = mid;
             }else{
